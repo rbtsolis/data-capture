@@ -3,15 +3,8 @@
 # How to create Virtualenv
 `python -m venv ./venv`
 
+# Run Project with Docker
 
-# Using PyCharm
-Just press Debug Button
-
-# Run Project with Docker (services)
-`docker compose up`
-
-### Just run PostgreSQL
-`docker compose up postgres`
-
-# Launch project & DEBUG on VSCODE
-Just Press `F5`
+### Just run Python Image
+`docker build -t data_capture .`
+`docker run --rm -it data_capture`
