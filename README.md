@@ -7,4 +7,6 @@
 
 ### Just run Python Image
 `docker build -t data_capture .`
+
+# By default it runs pytest in the CMD command
 `docker run --rm -it data_capture`
